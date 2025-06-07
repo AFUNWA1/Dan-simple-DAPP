@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SendETH + Voting DApp</title>
+  <title>Dan simpleDAPP</title>
   <link rel="stylesheet" href="/src/style.css">
   <script type="module" src="/src/main.ts"></script>
+  <script src="/src/script.js"></script>
+  <div id="app"></div>
+  <script type="module" src="/main.jsx"></script>
 
+    
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.1/ethers.umd.min.js"></script>
 </head>
 <body>
-  <h1>SendETH DApp</h1>
+  <h1>Dan simpleDAPP</h1>
   <button onclick="connectWallet()">🔗 Connect Wallet</button>
   <p><strong>Wallet Address:</strong> <span id="walletAddress">Not connected</span></p>
   <p><strong>Balance:</strong> <span id="balance">0 ETH</span></p>
@@ -30,6 +34,6 @@
   </select>
   <button onclick="castVote()">🗳️ Cast Vote</button>
 
-  <script src="/src/script.js"></script>
+  
 </body>
 </html>
